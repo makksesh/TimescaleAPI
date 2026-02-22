@@ -19,8 +19,8 @@ Solution/
 
 ```bash
 # Клонировать репозиторий
-git clone <repo-url>
-cd <repo-folder>
+git clone
+cd TimescaleAPI
 dotnet publish WebAPI/WebAPI.csproj -c Release -p:ContainerImageTag=latest /t:PublishContainer
 
 # Поднять PostgreSQL + WebAPI
